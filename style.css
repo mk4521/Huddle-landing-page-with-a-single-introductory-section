@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--White);
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--Violet);
+    overflow: hidden;
+}
+
+h1 p{
+    font-family: "Poppins",sans-serif;
+}
+
+.background img{
+    height: 100vh;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+
+.illustration_mockups{
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    width: 50%;
+    height: 50%;
+}
+
+.illustration_mockups img{
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    position: absolute;
+    top: 30%;
+    right: 9%;
+    width: 32%;
+    height: auto;
+}
+
+.text h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 0 35px 0;
+}
+
+.text button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outLine: none;
+    color: var(--Violet);
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 35px;
+    font-size: 16px;
+}
+
+.text button:hover{
+    opacity: 0.9;
+}
+
+.social_handles{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.social_handles span{
+    margin-left: 5px;
+}
